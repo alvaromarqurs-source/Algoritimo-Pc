@@ -45,8 +45,8 @@ Cada pasta possui um `README.md` com a descrição das atividades e o objetivo d
 
 | Projeto | Tema | Conteúdos aplicados |
 |---------|------|---------------------|
-| 🎮 [**Projeto 1 — Arena Tech**](./Aula05) (Aula 05) | Planejamento e análise de viabilidade de um evento de jogos eletrônicos | Entrada e saída, operações matemáticas, estruturas de decisão, consumo de energia, custos e orçamento |
-| 🛰️ [**Projeto 3 — Missão Orbital**](./Aula07) (Aula 07) | Simulador de treinamento espacial desenvolvido em equipe | `for`, `while`, `do...while` e condicionais |
+| 🎮 [**Projeto — Arena Tech**](./Aula05) (Aula 05) | Planejamento e análise de viabilidade de um evento de jogos eletrônicos | Entrada e saída, operações matemáticas, estruturas de decisão, consumo de energia, custos e orçamento |
+| 🛰️ [**Projeto — Missão Orbital**](./Aula07) (Aula 07) | Simulador de treinamento espacial desenvolvido em equipe | `for`, `while`, `do...while` e condicionais |
 | ⚡ [**Desafio — Monitoramento de Energia**](./Aula10) (Aula 10) | Análise do consumo de energia de quatro laboratórios durante sete dias | Matrizes, funções, ponteiros e laços de repetição |
 
 ---
