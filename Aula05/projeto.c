@@ -24,25 +24,25 @@ int main(void)
     printf("Quantidade de jogadores em cada time: ");
     scanf("%d",&qte_jogadores_por_time);
 
-    printf("Quantidade de computadores disponÌveis: ");
+    printf("Quantidade de computadores dispon√≠veis: ");
     scanf("%d",&qte_computadores);
 
-    printf("PotÍncia mÈdia de cada computador, em watts: ");
+    printf("Pot√™ncia m√©dia de cada computador, em watts: ");
     scanf("%f",&potencia);
 
-    printf("DuraÁ„o do evento, em horas: ");
+    printf("Dura√ß√£o do evento, em horas: ");
     scanf("%f",&duracao);
 
-    printf("PreÁo de 1 kWh de energia ");
+    printf("Pre√ßo de 1 kWh de energia ");
     scanf("%f",&preco_kwh);
 
-    printf("PreÁo de um kit de alimentaÁ„o por participante: ");
+    printf("Pre√ßo de um kit de alimenta√ß√£o por participante: ");
     scanf("%f",&preco_kit);
 
     printf("Outros custos do evento: ");
     scanf("%f",&outros_custos);
 
-    printf("OrÁamento m·ximo disponÌvel para o evento : ");
+    printf("Or√ßamento m√°ximo dispon√≠vel para o evento : ");
     scanf("%f",&orcamento);
 
 
@@ -61,14 +61,14 @@ int main(void)
     printf("Times necessarios: %d\n",qte_times);
     printf("Computadores disponiveis: %d\n", qte_computadores);
 
-    // Decis„o de Infraestrutura
+    // Decis√£o de Infraestrutura
     if (qte_computadores >= qte_participantes) {
         printf("Infraestrutura: SUFICIENTE\n\n");
     } else {
         printf("Infraestrutura: INSUFICIENTE (Faltam %d computadores)\n\n", qte_participantes - qte_computadores);
     }
 
-    // Decis„o do Consumo
+    // Decis√£o do Consumo
     printf("Consumo estimado: %.2f kWh\n", consumo_energia);
     printf("Classificacao do consumo: ");
     if (consumo_energia <= 20) {
@@ -79,7 +79,7 @@ int main(void)
         printf("ALTO\n");
     }
 
-    // ExibiÁ„o dos Custos
+    // Exibi√ß√£o dos Custos
     printf("Custo da energia: R$ %.2f\n", custo_energia);
     printf("Custo da alimentacao: R$ %.2f\n", custo_alimentacao);
     printf("Outros custos: R$ %.2f\n", outros_custos);
@@ -88,7 +88,7 @@ int main(void)
     printf("Orcamento disponivel: R$ %.2f\n", orcamento);
     printf("Saldo: R$ %.2f\n\n", saldo);
 
-    // Decis„o do OrÁamento (Margem de seguranÁa de 5%)
+    // Decis√£o do Or√ßamento (Margem de seguran√ßa de 5%)
     printf("Situacao do orcamento: ");
     if (custo_total > orcamento) {
         printf("ACIMA DO ORCAMENTO\n");
