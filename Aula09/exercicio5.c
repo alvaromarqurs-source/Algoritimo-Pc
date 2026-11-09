@@ -25,7 +25,7 @@ int main(){
     media = soma/contador;
     printf("Relatorio\n");
     printf("quantidade de registros: %d", contador);
-    printf("Consumo médio: %.1f\n",media);
+    printf("Consumo mÃ©dio: %.1f\n",media);
     printf("Ma iorConsumo: %.1f\n",maior_consumo);
 
     fclose(arquivo);
